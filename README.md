@@ -1,1 +1,1 @@
-# profitkit
+# http://itmaxik.ru/profitkit/
