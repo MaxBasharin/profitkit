@@ -1,0 +1,43 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000000;
+    background-color: #fff
+}
+
+.container {
+    padding: 0 15px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 16px 20px;
+    width: 165px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #F1D264;
+    transition: background-color .15s ease-in-out;
+
+    &:hover {
+        background-color: #dbac00;
+    }
+}
